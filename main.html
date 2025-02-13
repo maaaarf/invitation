@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>:3</title>
+  </head>
+<body>
+  <div class="main-box">
+    <h1>Will u be my valentine??? :3</h1>
+    <a href="yes_page.html">
+      <button id="yes_button">Yes</button>
+    </a>
+    <button id="no_button">No :(</button>
+  </div>
+
+
+<script>
+    document.getElementById("no_button").onclick = function() {
+        let newX = Math.random() * 300 - 150; // Random X (-150px to 150px)
+        let newY = Math.random() * 200 - 100; // Random Y (-100px to 100px)
+
+        // Para siguradong may change kahit parehas ang random na value
+        requestAnimationFrame(() => {
+            this.style.transform = `translate(${newX}px, ${newY}px)`;
+        });
+    };
+</script>
+
+</body>
+
+
+</html>

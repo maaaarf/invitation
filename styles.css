@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(232, 136, 218);
+}
+
+.main-box {
+  display: flexbox;
+  justify-items: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+#yes_button {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(73, 229, 73);
+  font-size: 15px;
+  border: 3px solid black;
+  cursor: pointer;
+  left: 70vh;
+  top: 40vh;
+}
+
+#no_button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(234, 24, 24);
+  color: rgb(0, 0, 0);
+  border: 3px solid black;
+  cursor: pointer;
+  position: relative;
+  margin-top: 90px;
+  margin-left: 250px;
+}
+
+#no_button:hover, #yes_button:hover {
+  opacity: 70%;
+}
+

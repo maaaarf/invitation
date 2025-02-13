@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="styles2.css">
+    <title>You said yes!!!</title>
+  </head>
+<body>
+  <div class="yey_page">
+    <h1>YOU'RE MY VALENTINE!!!</h1>
+  </div><br>
+  <div class="button_pos">
+    <button id="confettiButton">click 2 celebrate</button>
+  </div>
+
+<script>
+      document.getElementById("confettiButton").addEventListener("click", function() {
+          confetti({
+              particleCount: 100,   // Dami ng confetti
+              spread: 70,           // Sakop ng sabog
+              origin: { y: 0.6 }    // Galing sa gitna ng button
+          });
+      });
+  </script>
+</body>
+</html>

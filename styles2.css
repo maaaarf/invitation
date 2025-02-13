@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(232, 136, 218);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.yey_page {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.button_pos {
+  position:absolute;
+  margin-top: 300px;
+}
+
+#confettiButton {
+  background-color: rgba(7, 7, 132, 0.908);
+  color: white;
+  border: 3px solid rgb(113, 132, 255);
+  height: 50px;
+  width: 100px;
+}
